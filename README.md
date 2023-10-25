@@ -11,7 +11,11 @@ dependences: GitHub
 > [!WARNING]  
 > This bot still must be tested, all of this information is just a canception of an idea that I've had. If you found this and you already done the same, PLEASE let me know, so I'll revise the information here.
 
-This document explains the provided GitHub Actions workflow code that automates the translation of Markdown files using the OpenAI API. The workflow monitors for changes in Markdown files, translates them into the desired language, and stores the translations in a "translate" folder. Please follow the steps below to set up this workflow in your repository.
+I've been trying to record everything I see in my learning process within programming/software development and as a non-native user of English (despite having good ease with the language), I understand that not everyone in the vast internet community has the same proficiency, knowing that all the documents have to be translated, the project atempts to create a workflow that monitors for changes in Markdown files, translates them into the desired language, and stores the translations in a "translate" folder.
+
+Why use an AI model and not an existing translate API? It could be done, but you could add aditional triggers to optimise the text and the model is better prepared to handle all the markdown flavoured sintaxes.
+
+Please follow the steps below to set up this workflow in your repository.
 
 > [!WARNING]  
 > To use the `OPENAI_API_KEY`, you need a valid OpenAI account with a paid subscription. The API key is used to authenticate and authorize your access to OpenAI's API services, including language translation.
