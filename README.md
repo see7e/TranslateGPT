@@ -1,6 +1,6 @@
 ---
 title: TranslateGPT
-tags: programação, studies
+tags: programming, studies
 use: Documantation
 languages: YAML
 dependences: GitHub
